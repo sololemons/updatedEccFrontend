@@ -1,13 +1,13 @@
-
-
-import { useAuthStore } from '../stores/auth.js';
+// authGuard.js or similar file
+import { useAuthStore } from '../stores/auth'; // Adjust the path as per your setup
 
 export function requireAuth(to, from, next) {
-  const authStore = useAuthStore();
+  const authStore = useAuthStore(); // Check if the user is authenticated
   if (!authStore.isAuthenticated) {
-    next({ name: 'Login' }); // Redirect to login page if not authenticated
+    next({ name: 'Login' }); // Redirect to Login page if not authenticated
   } else {
-    next(); // Continue to the requested route
+    next(); // Proceed to the requested route
   }
 }
+
 export default requireAuth;

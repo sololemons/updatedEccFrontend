@@ -21,16 +21,19 @@
   
   <style scoped>
   .footer-container {
-    max-width: 1200px; /* Set max width for the footer container */
-    margin: 0 auto; /* Center the footer container */
+    max-width: 2220px; 
+    margin: 0 auto;
+    height: 40px; 
+
   }
   
   .footer {
-    background-color: #333; /* Set background color for the footer */
-    color: #fff; /* Set text color */
-    padding: 20px; /* Add padding for content */
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space items evenly */
+  margin-top: 50px;
+    background-color: #1a8386; 
+    color: #fff; 
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
   }
   
   .social-media, .contact-info {
@@ -38,12 +41,13 @@
   }
   
   .social-icons img {
-    width: 30px; /* Set width for social media icons */
-    margin-right: 10px; /* Add spacing between icons */
+    width: 30px;
+    margin-right: 10px; 
   }
   
   .logo {
-    width: 100px; /* Set width for logo */
+
+    width: 150px; 
   }
   
   </style>
